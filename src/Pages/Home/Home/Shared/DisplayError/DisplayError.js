@@ -1,6 +1,6 @@
 import { ErrorResponse } from "@remix-run/router";
 import React, { useContext } from "react";
-import { Link, useNavigate, useRouteError } from "react-router-dom";
+import { useNavigate, useRouteError } from "react-router-dom";
 import { AuthContext } from "../../../../../AuthProvider/AuthProvider";
 
 const DisplayError = () => {
